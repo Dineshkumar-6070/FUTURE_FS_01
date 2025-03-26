@@ -1,0 +1,107 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: black;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: blue;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* Sections */
+section {
+    padding: 80px 20px;
+    margin-top: 50px;
+}
+
+/* Skills */
+.skills-list span {
+    display: inline-block;
+    background: blue;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* Projects */
+.project {
+    background: black;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: blue;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: black;
+}
+
+/* Footer */
+footer {
+    background: black;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
